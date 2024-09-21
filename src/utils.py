@@ -3,7 +3,7 @@ import sys
 
 import numpy as np 
 import pandas as pd
-import dill 
+import dill  # type: ignore
 import pickle
 from sklearn.metrics import r2_score # type: ignore
 from sklearn.model_selection import GridSearchCV # type: ignore
